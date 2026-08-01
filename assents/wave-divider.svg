@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="wd" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a4260" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#2b8fbd" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#2b8fbd" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a4260" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path fill="none" stroke="url(#wd)" stroke-width="2" stroke-linecap="round"
+      d="M-250,22 C -187,10 -125,34 -62,22 C 0,10 62,34 125,22 C 187,10 250,34 312,22 C 375,10 437,34 500,22 C 562,10 625,34 687,22 C 750,10 812,34 875,22 C 937,10 1000,34 1062,22 C 1125,10 1187,34 1250,22">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 250,0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path fill="none" stroke="url(#wd)" stroke-width="1" stroke-linecap="round" opacity="0.5"
+      d="M-250,20 C -187,32 -125,8 -62,20 C 0,32 62,8 125,20 C 187,32 250,8 312,20 C 375,32 437,8 500,20 C 562,32 625,8 687,20 C 750,32 812,8 875,20 C 937,32 1000,8 1062,20 C 1125,32 1187,8 1250,20">
+      <animateTransform attributeName="transform" type="translate" values="250,0; 0,0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
